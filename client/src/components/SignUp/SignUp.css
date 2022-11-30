@@ -1,0 +1,62 @@
+.sign-up1 {
+    background-color: #fafafa;
+    align-items: center;
+    display: grid;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+}
+.main{
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    height: calc(100vh - 150px);
+}
+.vector-contain>.pic{
+    width: 50%;
+    margin-left: 160px;
+}
+.hold {
+    color: #263238;
+    width: 400px;
+    font-family: 'Poppins',sans-serif;
+}
+.hero1{
+    font-size: 1.8rem;
+}
+Link {
+    color: #24c0dc;
+    text-decoration: none;
+}
+
+h2{
+    font-size: 0.7rem;
+    font-family: 'Inter';
+    font-weight: 500;
+}
+h3{
+    font-size: 2.7rem;
+    line-height: 2.5rem;
+    font-family: 'Inter';
+    font-weight: 800;
+}
+h3>span{
+    color: #24c0dc;
+}
+.sub-caps{
+    font-size: 0.8rem;
+    font-weight: 400;
+    padding-bottom: 1rem;
+    padding-top: 6px;
+}
+form{
+    width: 400px;
+}
+.error{
+    text-align: center;
+    background-color: #F7B4BB;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    font-size: 0.9rem;
+    font-weight: 400;
+}
